@@ -4,3 +4,12 @@ Deklarasi :
     namaKue : string
     kodeKue, jmlKue, hrgKue, jmlBayar,  uangBayar, uangKembali : integer
  
+ Deskripsi :
+    Begin
+    writeln "Silakan Masukkan Kode Kue : "
+    read kodeKue
+    writeln "Silakan Masukkan Jumlah Kue : "
+    read jmlKue
+    if jmlKue < 0 then
+    display "Kesalahan Input Jumlah Barang"
+    end if 
