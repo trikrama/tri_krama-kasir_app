@@ -1,0 +1,6 @@
+APLIKASI KASIR
+
+Deklarasi :
+    namaKue : string
+    kodeKue, jmlKue, hrgKue, jmlBayar,  uangBayar, uangKembali : integer
+ 
