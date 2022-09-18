@@ -29,3 +29,15 @@ Deklarasi :
     else
     display "Kesalahan Input Data " 
     end if
+
+    jmlBayar = jmlKue times with hargaKue
+    Writeln "Uang Yang Di Bayar = "
+    read uangBayar 
+    if uangBayar < jmlBayar then
+    display "Uang Tidak Mencukupi Pembelanjaan"
+    end if 
+    else if uangBayar >= jmlBayar then
+    uangKembali = uangBayar minus jmlBayar ;
+    end if
+    display "Kembalian = Rp " +uangKembali
+    end
