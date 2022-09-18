@@ -13,3 +13,19 @@ Deklarasi :
     if jmlKue < 0 then
     display "Kesalahan Input Jumlah Barang"
     end if 
+
+    if kodeKue = 001 then
+    display "Nama Kue = Pie"
+    hargaKue = 2000;
+    end if 
+    else if kodeKue = 002 then
+    display "Nama Kue = Brownies"
+    hargaKue = 3000
+    end if 
+    else if kodeKue = 003 then
+    display "Nama Kue = Bolu"
+    hargaKue = 4000;
+    end if 
+    else
+    display "Kesalahan Input Data " 
+    end if
